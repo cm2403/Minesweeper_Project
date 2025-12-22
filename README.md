@@ -14,7 +14,8 @@ I want this to be very basic but still display levels of complexity, some of the
 
 I'm not going to be able to do this completely off of my own back - I haven't really done development outside of school/uni curriculums, so I will be using tutorials, online forums and (oh no) AI - I'm not going to vibe code this whole thing, it's just to understand syntax or concepts that I don't understand throughout this learning journey.
 I plan to use Claude as my AI assistant for this venture - the Sonnet 4.5 model specifically - I have not used Claude before so this will be an experience in itself.
-Any links to tutorials will be placed here:
-
+Any links to tutorials / resources will be placed here:
+- This [Youtube Tutorial](https://www.youtube.com/watch?v=UHQ-pJlUzjg)
+- Freepik for game icons
 
 That's me for today - the remainder of the day will be trying to find tutorials and other resources to decide on technology stack and a way to do this!
