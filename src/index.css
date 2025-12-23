@@ -3,12 +3,33 @@
   line-height: 1.5;
   font-weight: 400;
 
+  --app-bg: #151515;
+  --text: #1a1a1a;
+  --surface: #cccccc;
+  --cell-border-color: #bbbbbb;
+
+  /*Mine Number Colours*/
+  --one: blue;
+  --two: green;
+  --three: tomato;
+  --four: darkviolet;
+  --five: darkred;
+  --six: steelblue;
+  --seven: darkgrey;
+  --eight: black;
+
+  --overlay-light: #ffffff;
+  --overlay-mid: #cccccc;
+  --overlay-dark: #aaaaaa;
+
+  background-color: var(--app-bg);
+  color: var(--text);
+
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
 
 body {
   margin: 0;
@@ -17,4 +38,3 @@ body {
   min-width: 320px;
   min-height: 100vh;
 }
-
