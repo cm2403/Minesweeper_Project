@@ -24,9 +24,14 @@ Any links to tutorials / resources will be placed here:
 
 That's me for today - the remainder of the day will be trying to find tutorials and other resources to decide on technology stack and a way to do this!
 
-## Day 2 - 23/11/25 - Board Layout
+## Day 2 - 23/12/25 - Board Layout
 
 Spending the day following the tutorial to get the layout of the board
 This is helping me understand the basic concepts of React and improving my CSS skills (I didn't know variables were a thing in CSS until now)
 I have created types using TypeScript to ensure that sqaures in the game only have certain behaviours
 Up to 31.30 on the tutorial video
+
+## Day 3 - 24/12/25 - Board Initialisation
+
+Created logic to make board based on our own parameters of height and width
+Added bombs to the screen
