@@ -35,3 +35,9 @@ Up to 31.30 on the tutorial video
 
 Created logic to make board based on our own parameters of height and width
 Added bombs to the screen
+
+## 8/1/26 ...
+
+So yeah - I forgot about updating this but I finished the tutorial and am now commiting the game!
+I do want to keep adding things and making enhancements, but that will come in time
+For now, well done and enjoy!

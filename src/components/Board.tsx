@@ -1,16 +1,33 @@
 import Cell from "./Cell";
-import type { TBoard } from "../types";
-import { initGame } from "../utils";
+import type { TBoard, TLevel } from "../types";
+import type { MouseEvent } from "react";
 
-const BOARD: TBoard = initGame(9, 9, 10);
+type Props = {
+  level: TLevel;
+  gameBoard: TBoard;
+  handleCellLeftClick: (row: number, col: number) => void;
+  handleCellRightClick: (
+    e: MouseEvent<HTMLDivElement>,
+    row: number,
+    col: number
+  ) => void;
+};
 
-const Board = () => {
+const Board = (props: Props) => {
+  const { level, gameBoard, handleCellLeftClick, handleCellRightClick } = props;
   return (
     <div className="board">
-      {BOARD.map((row) => (
+      {gameBoard.map((row, rowIndex) => (
         <div className="row">
-          {row.map((cell) => (
-            <Cell cell={cell} />
+          {row.map((cell, cellIndex) => (
+            <Cell
+              cell={cell}
+              rowIndex={rowIndex}
+              cellIndex={cellIndex}
+              handleCellLeftClick={handleCellLeftClick}
+              handleCellRightClick={handleCellRightClick}
+              level={level}
+            />
           ))}
         </div>
       ))}

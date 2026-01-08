@@ -22,6 +22,12 @@
   --overlay-mid: #cccccc;
   --overlay-dark: #aaaaaa;
 
+  --red: firebrick;
+  --green: forestgreen;
+
+  --btn-color: #151515;
+  --btn-active: #555555;
+
   background-color: var(--app-bg);
   color: var(--text);
 
