@@ -1,43 +1,15 @@
-# Minesweeper_Project
+# Welcome to Minesweeper!
 
-Recreation of the game Minesweeper for my personal portfolio. I'm doing this for coding practice + I really like the game!
+Hello! My name is Cian and welcome to my version of Minesweeper!
 
-## Day 1 - 22/12/25 - Planning
+I have a passion for coding and have been doing so since 2019 but have never done anything extra curricular to my education like this
 
-It's time to begin!
-First things first, trying to understand how I am actually going to do this with relatively novice programming skills.
-I have never created a proper application with a working frontend, backend and database all in one.
+I plan to use this project to broaden my knowledge and expertise about software engineering and development by trying to add as many aspects of full stack development as possible during the free time that I have. As I add more and more features I will continue to detail them in either the 'Releases' section of the GitHub as well as this document
 
-I want this to be very basic but still display levels of complexity, some of the things I want to learn are:
+I have the game currently deployed using Vercel [here](https://minesweeper-project-ca5513.vercel.app/), so please feel free to try it out and give any feedback!
 
-- Frontend development - working to create a fluid frontend for the game. Frontend design is usually a weak point for me so improving this would be great!
-- Backend development - put together skills I have already learned to develop the game logic and link the game to a live database - something that I've never done before.
-- Database Management - learn more about database platforms and how these works.
-- Application Management - I want this game to be playable to show off to people, and I want to be able to host it somewhere. So understanding how I can deploy my code for it to be contained somewhere and played is something I want to learn.
+_Thanks and happy mining!_
 
-I'm not going to be able to do this completely off of my own back - I haven't really done development outside of school/uni curriculums, so I will be using tutorials, online forums and (oh no) AI - I'm not going to vibe code this whole thing, it's just to understand syntax or concepts that I don't understand throughout this learning journey.
-I plan to use Claude as my AI assistant for this venture - the Sonnet 4.5 model specifically - I have not used Claude before so this will be an experience in itself.
-Any links to tutorials / resources will be placed here:
+## Technology Stack
 
-- This [Youtube Tutorial](https://www.youtube.com/watch?v=UHQ-pJlUzjg)
-- Freepik for game icons
-
-That's me for today - the remainder of the day will be trying to find tutorials and other resources to decide on technology stack and a way to do this!
-
-## Day 2 - 23/12/25 - Board Layout
-
-Spending the day following the tutorial to get the layout of the board
-This is helping me understand the basic concepts of React and improving my CSS skills (I didn't know variables were a thing in CSS until now)
-I have created types using TypeScript to ensure that sqaures in the game only have certain behaviours
-Up to 31.30 on the tutorial video
-
-## Day 3 - 24/12/25 - Board Initialisation
-
-Created logic to make board based on our own parameters of height and width
-Added bombs to the screen
-
-## 8/1/26 ...
-
-So yeah - I forgot about updating this but I finished the tutorial and am now commiting the game!
-I do want to keep adding things and making enhancements, but that will come in time
-For now, well done and enjoy!
+The frontend of this website was created using a React/Typescript combination using this [Youtube Tutorial](https://www.youtube.com/watch?v=UHQ-pJlUzjg)

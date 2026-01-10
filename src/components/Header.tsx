@@ -8,7 +8,6 @@ type Props = {
   minesLeft: number;
   timeDifference: string;
   startNewGame: () => void;
-  restartGame: () => void;
 };
 
 const Header = (props: Props) => {
@@ -19,7 +18,6 @@ const Header = (props: Props) => {
     minesLeft,
     timeDifference,
     startNewGame,
-    restartGame,
   } = props;
   return (
     <header>
@@ -33,7 +31,6 @@ const Header = (props: Props) => {
       </div>
       <div className="header-buttons">
         <button onClick={startNewGame}>New</button>
-        <button onClick={restartGame}>Restart</button>
       </div>
       <div className="header-label">
         <TimerDisplay timeDifference={timeDifference} />

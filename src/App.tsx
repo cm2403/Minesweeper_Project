@@ -18,7 +18,6 @@ function App() {
     minesLeft,
     timeDifference,
     startNewGame,
-    restartGame,
   } = useMinesweeperGame();
 
   return (
@@ -30,7 +29,6 @@ function App() {
         minesLeft={minesLeft}
         timeDifference={timeDifference}
         startNewGame={startNewGame}
-        restartGame={restartGame}
       />
       <Board
         level={level}
